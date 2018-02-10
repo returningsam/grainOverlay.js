@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.one {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+}
+
+.two {
+    position: fixed;
+    left: calc(25% - 200px);
+    top: calc(50% - 200px);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.three {
+    position: fixed;
+    left: calc(25% - 200px);
+    top: calc(50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.four {
+    position: fixed;
+    top: 20px;
+    left: calc(50% + 20px);
+    width: calc(50% - 40px);
+    height: calc(50% - 40px);
+}
+
+.five {
+    position: fixed;
+    top: calc(50% + 20px);
+    left: calc(50% + 20px);
+    width: calc(50% - 40px);
+    height: calc(50% - 40px);
+}
