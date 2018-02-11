@@ -21,6 +21,8 @@
         p.appendChild(gCanv);
         if (!c) c = 200;
         if (!o) o = 25;
+        c = Math.max(0,Math.min(c,255));
+        o = Math.max(0,Math.min(o,255));
         var gCtx = gCanv.getContext("2d");
         gCanv.width  = window.innerWidth  * 2;
         gCanv.height = window.innerHeight * 2;
