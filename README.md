@@ -58,7 +58,7 @@ The init method takes a parent element and adds the grain element as a child of 
 
 The regrain method takes any canvas element, and will redraw the grain onto it. The optional arguments are for adjusting the strength and look of the grain.
 
-    grainOverlay.init(element, color, opacity, zIndex);
+    grainOverlay.regrain(element, color, opacity, zIndex);
 
     // element: Element to which new grain will be drawn.
 
