@@ -24,7 +24,7 @@ You can see this tool in use [here](https://samkil.us/playground).
 
 ## Installation
 
-Include either grainOverlay.js or grainOverlay.min.js in your html head tag:
+Include either `grainOverlay.js` or `grainOverlay.min.js` in your html head tag:
 
     <head>
         ...
