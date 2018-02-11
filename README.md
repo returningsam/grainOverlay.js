@@ -5,14 +5,14 @@ A simple tool to add real random grain to any html element.
 <img title="Size Limit logo" src="./preview.gif">
 
 Current functions:
-- Add grain to an element
+- Add grain to an element.
 - Randomize grain in existing grain element.
 
 ## How
 
 This tool adds a grain overlay to any element by:
-1. Creating an HTML canvas element
-2. Placing the canvas into the specified parent element. Canvas element has absolute position, and a high zIndex to allow it to fully cover the parent element.
+1. Creating an HTML canvas element.
+2. Placing the canvas into the specified parent element. The canvas element has absolute position, and a high zIndex to allow it to fully cover the parent element.
 3. Randomizes the [image data](https://developer.mozilla.org/en-US/docs/Web/API/ImageData) of the canvas to create real grain.
 4. Canvas elements can be passed back to the tool to re-randomize the grain.
 
