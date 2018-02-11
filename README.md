@@ -20,6 +20,8 @@ This tool adds a grain overlay to any element by:
 
 Grain can add a nice sense of texture to an element. This makes it easy.
 
+You can see this tool in use [here](https://samkil.us/playground).
+
 ## Installation
 
 Include either grainOverlay.js or grainOverlay.min.js in your html head tag:
