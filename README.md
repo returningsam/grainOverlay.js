@@ -20,7 +20,7 @@ This tool adds a grain overlay to any element by:
 
 Grain can add a nice sense of texture to an element. This makes it easy.
 
-You can see this tool in use [here](https://samkil.us/playground).
+You can see this tool in use [here](https://samkilg.us/playground).
 
 ## Installation
 
